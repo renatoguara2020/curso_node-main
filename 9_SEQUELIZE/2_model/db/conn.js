@@ -7,7 +7,7 @@ const sequelize = new Sequelize('nodesequelize', 'root', '', {
 
  try {
    sequelize.authenticate()
-   console.log('Conectamos com o Sequelize!')
+   console.log('Conectamos com o Sequelize in 2023!')
  } catch (error) {
    console.error('Não foi possível conectar:', error)
  }
